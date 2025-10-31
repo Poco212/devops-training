@@ -39,13 +39,13 @@ Dengan menggunakan opsi -a (singkatan dari all), pengguna dapat melihat seluruh 
 ```
 ls -a
 ```
-<img src="/module/ls/pictures/option-a.png" alt="option -a" width="500" height="600">
+<img src="/module/ls/pictures/option-a.png" alt="option -a">
 
 penggunaan perintah ini adalah dengan mengetikkan ls -a di terminal. Misalnya, ketika berada di direktori home (~), menjalankan perintah tersebut akan menampilkan daftar file seperti .bashrc, .profile, .config, serta folder lain seperti Downloads.
 
 ```
 ls -la
 ```
-<img src="/module/ls/pictures/option-a.1.png" alt="option -a" width="500" height="600">
+<img src="/module/ls/pictures/option-a.1.png" alt="option -a">
 
 Perintah ls -la digunakan untuk menampilkan semua file dan direktori, termasuk yang tersembunyi, beserta detail informasinya seperti izin akses, pemilik, ukuran, dan waktu modifikasi. Kombinasi opsi -l (long listing) dan -a (all) ini memberikan tampilan yang lebih lengkap dan informatif dibandingkan ls biasa, sehingga sangat berguna untuk memeriksa atribut file, memantau hak akses, dan mengelola file tersembunyi secara lebih efisien.
