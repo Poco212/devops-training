@@ -28,7 +28,7 @@ metadata:
 description: "Nodule penggunaan command dasar linux list dengan option -B"
 ---
 
-### Pengantar penggunaan command list dengan option -b
+### Pengantar penggunaan command list dengan option -B
 ---
 Perintah ls pada Linux digunakan untuk menampilkan isi direktori. Salah satu opsi yang tersedia adalah -B atau --ignore-backups. Opsi ini berguna untuk mengabaikan file backup saat menampilkan daftar file di direktori. File backup biasanya adalah file yang dibuat otomatis oleh editor teks atau sistem dengan menambahkan karakter ~ di akhir nama file, misalnya oktober.pdf~. Dengan menggunakan ls -B, file-file semacam ini tidak akan ditampilkan, sehingga tampilan menjadi lebih bersih dan fokus hanya pada file utama.
 
@@ -51,7 +51,7 @@ ls -B
  Saat perintah dijalankan, output yang ditampilkan hanya finance.pdf dan oktober.pdf, sedangkan file backup yang berakhiran ~ tidak ditampilkan. Hal ini membuat tampilan direktori lebih bersih dan memudahkan pengguna untuk fokus pada file utama tanpa terganggu oleh file cadangan sementara.
 
 ```
-ls -lb
+ls -lB
 ```
 <img src="/module/ls/pictures/option-B.2.png" alt="option -B">
 
